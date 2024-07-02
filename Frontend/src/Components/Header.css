@@ -1,0 +1,70 @@
+.header{
+    width: 90%;
+    margin-left:5%;
+    margin-top: 2%;
+    height: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    background: rgba(255, 255, 255, .7);
+    backdrop-filter: blur(5px) saturate(180%);
+    -webkit-backdrop-filter: blur(5px) saturate(180%);
+    justify-content: space-between;
+    position: fixed;
+    position: absolute;
+}
+
+.title{
+    width: 50%;
+    display: flex;
+}
+
+.title h1{
+  color: linear-gradient(90deg, #edc0bf 0,#efc4e4 58%);
+  padding:0px 20px 0px 20px;
+  font-weight: bold;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  line-height: 60px;
+  margin: 0px;
+}
+
+.navlink{
+    width: 15%;
+}
+
+.nav-item:hover{
+  background: linear-gradient(90deg, #edc0bf 0,#efc4e4 58%);
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.nav-item{
+  padding: 10px;
+  line-height: 15px;
+  margin: 0px;
+}
+
+a{
+    color: #4d4ae8;
+    text-decoration: none;
+}
+
+.navbar{
+    justify-content: space-between;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .shape {
+      animation: App-logo-spin infinite 20s linear;
+      position: relative;
+    }
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

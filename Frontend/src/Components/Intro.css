@@ -1,0 +1,31 @@
+
+.intro{
+    width: 40%;
+    margin-top: 20%;
+    margin-left: 5%;
+  }
+  
+  .intro-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .video-btn{
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 5%;
+    background-color: black;
+    
+    border: none;
+  }
+
+  Link{
+    color:white;
+  }
+
