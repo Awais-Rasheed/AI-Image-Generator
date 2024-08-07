@@ -17,7 +17,7 @@ app.post('/api/image', async (req, res) => {
         headers: {
             accept: 'application/json',
             'content-type': 'application/json',
-            authorization: 'Bearer key-4nhDGnsnMgcoZbgtYEBfu0bpYDFa7mKykx6YwS0riGj2q9SnPhR9Z6CBbjcgATG8iNZxJnRjsc5IdkeNU95IeSGIyxj4kSsy'
+            authorization: 'Bearer YOUR_BEARER_TOKKEN' //get from getimg.ai
         },
         body: JSON.stringify({
             style: 'photorealism',
